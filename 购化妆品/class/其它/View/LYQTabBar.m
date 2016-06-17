@@ -31,24 +31,4 @@
     return self;
 }
 
--(void)layoutSubviews{
-    [super layoutSubviews];
-    //设置发布按钮的frame
-//    self.publishButton.center = CGPointMake(self.frame.size.width*0.5, self.frame.size.height*0.5);
-//    NSInteger index = 0;
-//    //    CGFloat buttonW = self.frame.size.width / 5;
-//    for (UIView *button in self.subviews) {
-//        if(![button isKindOfClass:NSClassFromString(@"UITabBarButton")])continue;
-//        
-//        CGFloat buttonX = self.frame.size.width/5 * ((index>1)?(index +1):index);
-//        button.frame = CGRectMake(
-//                                  buttonX,
-//                                  0,
-//                                  self.frame.size.width / 5,
-//                                  self.frame.size.height
-//                                  );
-//        index++;
-//    }
-}
-
 @end
